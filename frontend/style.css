@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(226, 254, 254);
+    min-height: 100vh; 
+    display: flex;   
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    flex-direction: column;
+}
+
+.container-titulo {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.container-titulo img {
+    width: 40px;
+}
+
+.titulo-quiz {
+    color: #2980b9;
+    font-family: "Space Grotesk", sans-serif;
+    font-size: 40px;
+    
+}
+
+.status-container {
+    display: flex;
+    gap: 20px;
+    background-color: white;
+    padding: 10px;
+    border-radius: 20px;
+    margin-bottom: 30px;
+}
+
+.ponto {
+    color: #27ae60;
+    font-weight: bold;
+}
+
+.rodada {
+    color: #848282;
+    font-weight: bold;
+}
+
+.status-container img {
+    width: 20px;
+}
+
+.status-container p {
+    align-items: center;
+    display: flex;
+    gap: 10px;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    max-width: 700px; 
+    padding: 20px;
+    background-color: white; 
+    border-radius: 16px;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1); 
+}
+
+.container-align {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+}
+
+.buttons-align {
+    display: grid; 
+    grid-template-columns: 1fr 1fr; 
+    gap: 10px;
+    width: 100%;
+    margin-top: 20px;
+}
+
+button {
+    padding: 15px 20px;
+    font-size: 16px;
+    border: solid, 1px;
+    border-radius: 20px;
+    border-color: rgb(190, 190, 190) ;
+
+    background-color: white;
+    color: rgb(63, 62, 62);
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+button:hover {
+    transform: scale(1.05);
+
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#bandeira {
+    width: 600px;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 8px;
+    border: 2px solid #ddd;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#pergunta {
+    margin: 20px 0;
+    color: #333;
+    font-size: 20px;
+}
+
+#contPontuacao {
+    font-weight: bold;
+    color: #27ae60;
+}
+
+.btn-correto {
+    background-color: #27ae60 !important; 
+    color: white;
+}
+
+.btn-incorreto {
+    background-color: #e74c3c !important;
+    color: white;
+}
+
+.fim h1  {
+    font-size: 24px;
+    font-family: "Space Grotesk", sans-serif;
+}
+
+.fim h2 {
+    font-size: 14px;
+    color: #848282;
+}
+
+.fim button {
+                margin-top: 30px;
+                padding: 15px 30px;
+                font-size: 20px;
+                background-color: #8aaab6;
+                color: white;
+                border: none;
+                border-radius: 40px;
+                cursor: pointer;
+                box-shadow: 0 4px 8px rgba(0, 0, 0, 0.327);
+                align-items: center;
+                display: flex;
+                gap: 20px;
+            
+}
+
+.img-recarregar {
+    width: 26px;
+}

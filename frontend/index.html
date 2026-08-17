@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>World Master Quiz</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container-titulo">
+        <img src="planet-earth.png" alt=""> 
+        <h1 class="titulo-quiz"> World Master Quiz </h1>
+    </div>
+
+    <div class="status-container">
+    <p class="ponto">  <img src="trophy.png" alt="" ><span id="contPontuacao">0</span> pts </p>
+    <p class="rodada"> <img src="target.png" alt=""><span id="rodadaAtual">1</span> / <span id="limiteRodadas">10</span></p>
+    </div>
+
+    <main id="container">
+        <div class="container-align">
+        
+        <section> 
+            <div id="quiz-container">
+                <img id="bandeira" src="" alt="Bandeira" >
+
+                
+                <h2 id="pergunta"></h2>
+
+                <div class="buttons-align">
+                <button id="bt1" onclick="verificarResposta(this.textContent, this)"></button>
+                <button id="bt2" onclick="verificarResposta(this.textContent, this)"></button>
+                <button id="bt3" onclick="verificarResposta(this.textContent, this)"></button>
+                <button id="bt4" onclick="verificarResposta(this.textContent, this)"></button>
+                </div>
+
+            </div>
+        </section>
+
+        
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
